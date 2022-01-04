@@ -17,4 +17,4 @@ jobs:
         echo "total memory successfully output"
     - name: current directory
       run: |
-        echo ${{ `pwd`}}
+        echo "${{ `pwd` }}"
