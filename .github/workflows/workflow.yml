@@ -16,5 +16,5 @@ jobs:
         echo ${{ steps.hello.outputs.memory }}
         echo "total memory successfully output"
     - name: current directory
-      run: |
-        echo "${{ `pwd` }}"
+      run: pwd
+        
